@@ -270,10 +270,10 @@ string md5_crypt(string password, string salt, string magic) {
 	return base64_crypt(final_intermediate);
 }
 
-void func_1 () {	
-	string hashed_password = "wPwz7GC6xLt9eQZ9eJkaq.";	
-	string password = "zhgnnd";
-	string salt = "hfT7jp2q";
+void six_1 () {	
+	string hashed_password = "jXUpzhJaegsl6uwrGhMBW0";	
+	string password = "";
+	string salt = "4fTgjp6q";
 	string magic = "$1$";
 	//cout << md5_crypt(password, salt, magic) << endl;
 	char alphabet[] = {'a','b','c','d','e','f','g','h','i','j','k','l','m','n','o','p','q','r','s','t','u','v','w','x','y','z'};
@@ -286,7 +286,7 @@ void func_1 () {
 	int v = 0;
 	int l = 0;
 	// guess_6
-	for (l = 0; l < 5; ++l) {
+	for (l = 0; l < 4; ++l) {
 		guess_6[0] = alphabet[l];
 		for (v = 0; v < 26; ++v) {
 			guess_6[1] = alphabet[v];
@@ -310,10 +310,10 @@ void func_1 () {
 	}
 }
 
-void func_2() {
-	string hashed_password = "wPwz7GC6xLt9eQZ9eJkaq.";	
-	string password = "zhgnnd";
-	string salt = "hfT7jp2q";
+void six_2 () {	
+	string hashed_password = "jXUpzhJaegsl6uwrGhMBW0";	
+	string password = "";
+	string salt = "4fTgjp6q";
 	string magic = "$1$";
 	//cout << md5_crypt(password, salt, magic) << endl;
 	char alphabet[] = {'a','b','c','d','e','f','g','h','i','j','k','l','m','n','o','p','q','r','s','t','u','v','w','x','y','z'};
@@ -326,7 +326,7 @@ void func_2() {
 	int v = 0;
 	int l = 0;
 	// guess_6
-	for (l = 5; l < 10; ++l) {
+	for (l = 4; l < 8; ++l) {
 		guess_6[0] = alphabet[l];
 		for (v = 0; v < 26; ++v) {
 			guess_6[1] = alphabet[v];
@@ -348,13 +348,11 @@ void func_2() {
 			}
 		}
 	}
-
 }
-
-void func_3() {
-	string hashed_password = "wPwz7GC6xLt9eQZ9eJkaq.";	
-	string password = "zhgnnd";
-	string salt = "hfT7jp2q";
+void six_3 () {	
+	string hashed_password = "jXUpzhJaegsl6uwrGhMBW0";	
+	string password = "";
+	string salt = "4fTgjp6q";
 	string magic = "$1$";
 	//cout << md5_crypt(password, salt, magic) << endl;
 	char alphabet[] = {'a','b','c','d','e','f','g','h','i','j','k','l','m','n','o','p','q','r','s','t','u','v','w','x','y','z'};
@@ -367,7 +365,7 @@ void func_3() {
 	int v = 0;
 	int l = 0;
 	// guess_6
-	for (l = 10; l < 15; ++l) {
+	for (l = 8; l < 12; ++l) {
 		guess_6[0] = alphabet[l];
 		for (v = 0; v < 26; ++v) {
 			guess_6[1] = alphabet[v];
@@ -389,13 +387,11 @@ void func_3() {
 			}
 		}
 	}
-
 }
-
-void func_4() {
-	string hashed_password = "wPwz7GC6xLt9eQZ9eJkaq.";	
-	string password = "zhgnnd";
-	string salt = "hfT7jp2q";
+void six_4 () {	
+	string hashed_password = "jXUpzhJaegsl6uwrGhMBW0";	
+	string password = "";
+	string salt = "4fTgjp6q";
 	string magic = "$1$";
 	//cout << md5_crypt(password, salt, magic) << endl;
 	char alphabet[] = {'a','b','c','d','e','f','g','h','i','j','k','l','m','n','o','p','q','r','s','t','u','v','w','x','y','z'};
@@ -407,9 +403,8 @@ void func_4() {
 	int x = 0;
 	int v = 0;
 	int l = 0;
-
 	// guess_6
-	for (l = 15; l < 20; ++l) {
+	for (l = 12; l < 16; ++l) {
 		guess_6[0] = alphabet[l];
 		for (v = 0; v < 26; ++v) {
 			guess_6[1] = alphabet[v];
@@ -431,13 +426,11 @@ void func_4() {
 			}
 		}
 	}
-
 }
-
-void func_5() {
-	string hashed_password = "wPwz7GC6xLt9eQZ9eJkaq.";	
-	string password = "zhgnnd";
-	string salt = "hfT7jp2q";
+void six_5 () {	
+	string hashed_password = "jXUpzhJaegsl6uwrGhMBW0";	
+	string password = "";
+	string salt = "4fTgjp6q";
 	string magic = "$1$";
 	//cout << md5_crypt(password, salt, magic) << endl;
 	char alphabet[] = {'a','b','c','d','e','f','g','h','i','j','k','l','m','n','o','p','q','r','s','t','u','v','w','x','y','z'};
@@ -449,9 +442,8 @@ void func_5() {
 	int x = 0;
 	int v = 0;
 	int l = 0;
-
 	// guess_6
-	for (l = 20; l < 26; ++l) {
+	for (l = 16; l < 20; ++l) {
 		guess_6[0] = alphabet[l];
 		for (v = 0; v < 26; ++v) {
 			guess_6[1] = alphabet[v];
@@ -473,14 +465,96 @@ void func_5() {
 			}
 		}
 	}
-
 }
 
 
-int main() {
-	string hashed_password = "wPwz7GC6xLt9eQZ9eJkaq.";	
-	string password = "zhgnnd";
-	string salt = "hfT7jp2q";
+void six_6 () {	
+	string hashed_password = "jXUpzhJaegsl6uwrGhMBW0";	
+	string password = "";
+	string salt = "4fTgjp6q";
+	string magic = "$1$";
+	//cout << md5_crypt(password, salt, magic) << endl;
+	char alphabet[] = {'a','b','c','d','e','f','g','h','i','j','k','l','m','n','o','p','q','r','s','t','u','v','w','x','y','z'};
+	string guess_6 = "aaaaaa";
+
+	int i = 0;
+	int j = 0;
+	int k = 0;
+	int x = 0;
+	int v = 0;
+	int l = 0;
+	// guess_6
+	for (l = 20; l < 24; ++l) {
+		guess_6[0] = alphabet[l];
+		for (v = 0; v < 26; ++v) {
+			guess_6[1] = alphabet[v];
+			for (x = 0; x < 26; ++x) {
+				guess_6[2] = alphabet[x];
+				for (i = 0; i< 26; ++i) {
+					guess_6[3] = alphabet[i];
+					for (j = 0; j < 26; ++j) {
+						guess_6[4] = alphabet[j];
+						for (k = 0; k < 26; ++k) {
+							guess_6[5] = alphabet[k];
+							if (md5_crypt( guess_6,  salt,  magic) == hashed_password) {
+								cout << "FOUND: " << guess_6 << endl;
+							}
+							//cout << guess_6 << endl;
+						}	
+					}
+				}
+			}
+		}
+	}
+}
+
+void six_7 () {	
+	string hashed_password = "jXUpzhJaegsl6uwrGhMBW0";	
+	string password = "";
+	string salt = "4fTgjp6q";
+	string magic = "$1$";
+	//cout << md5_crypt(password, salt, magic) << endl;
+	char alphabet[] = {'a','b','c','d','e','f','g','h','i','j','k','l','m','n','o','p','q','r','s','t','u','v','w','x','y','z'};
+	string guess_6 = "aaaaaa";
+
+	int i = 0;
+	int j = 0;
+	int k = 0;
+	int x = 0;
+	int v = 0;
+	int l = 0;
+	// guess_6
+	for (l = 24; l < 26; ++l) {
+		guess_6[0] = alphabet[l];
+		for (v = 0; v < 26; ++v) {
+			guess_6[1] = alphabet[v];
+			for (x = 0; x < 26; ++x) {
+				guess_6[2] = alphabet[x];
+				for (i = 0; i< 26; ++i) {
+					guess_6[3] = alphabet[i];
+					for (j = 0; j < 26; ++j) {
+						guess_6[4] = alphabet[j];
+						for (k = 0; k < 26; ++k) {
+							guess_6[5] = alphabet[k];
+							if (md5_crypt( guess_6,  salt,  magic) == hashed_password) {
+								cout << "FOUND: " << guess_6 << endl;
+							}
+							//cout << guess_6 << endl;
+						}	
+					}
+				}
+			}
+		}
+	}
+}
+
+
+
+void guesses_one_to_three() {
+
+	string hashed_password = "jXUpzhJaegsl6uwrGhMBW0";	
+	string password = "";
+	string salt = "4fTgjp6q";
 	string magic = "$1$";
 	//cout << md5_crypt(password, salt, magic) << endl;
 	char alphabet[] = {'a','b','c','d','e','f','g','h','i','j','k','l','m','n','o','p','q','r','s','t','u','v','w','x','y','z'};
@@ -488,8 +562,7 @@ int main() {
 	string guess_2 = "aa";
 	string guess_3 = "aaa";
 	string guess_4 = "aaaa";
-	string guess_5 = "aaaaa";
-	string guess_6 = "aaaaaa";
+
 
 	int i = 0;
 	int j = 0;
@@ -533,7 +606,25 @@ int main() {
 		}
 		
 	}
-	
+
+
+}
+
+
+void guess_4(){
+	string hashed_password = "jXUpzhJaegsl6uwrGhMBW0";	
+	string password = "";
+	string salt = "4fTgjp6q";
+	string magic = "$1$";
+	//cout << md5_crypt(password, salt, magic) << endl;
+	char alphabet[] = {'a','b','c','d','e','f','g','h','i','j','k','l','m','n','o','p','q','r','s','t','u','v','w','x','y','z'};
+	string guess_4 = "aaaa";
+	int i = 0;
+	int j = 0;
+	int k = 0;
+	int x = 0;
+	int v = 0;
+	int l = 0;
 	// guess_4
 	for (x = 0; x < 26; ++x) {
 		guess_4[0] = alphabet[x];
@@ -551,9 +642,25 @@ int main() {
 			}
 		}
 	}
+}
 
+
+void guess_5_1() {
+	string hashed_password = "jXUpzhJaegsl6uwrGhMBW0";	
+	string password = "";
+	string salt = "4fTgjp6q";
+	string magic = "$1$";
+	//cout << md5_crypt(password, salt, magic) << endl;
+	char alphabet[] = {'a','b','c','d','e','f','g','h','i','j','k','l','m','n','o','p','q','r','s','t','u','v','w','x','y','z'};
+	string guess_5 = "aaaaa";
+	int i = 0;
+	int j = 0;
+	int k = 0;
+	int x = 0;
+	int v = 0;
+	int l = 0;	
 	// guess_5
-	for (v = 0; v < 26; ++v) {
+	for (v = 0; v < 15; ++v) {
 		guess_5[0] = alphabet[v];
 		for (x = 0; x < 26; ++x) {
 			guess_5[1] = alphabet[x];
@@ -572,30 +679,78 @@ int main() {
 			}
 		}
 	}
-	std::thread thread_1(func_1);
-	std::thread thread_2(func_2);
-	std::thread thread_3(func_3);
-	std::thread thread_4(func_4);
-	std::thread thread_5(func_5);
+
+}
+
+
+
+void guess_5_2() {
+	string hashed_password = "jXUpzhJaegsl6uwrGhMBW0";	
+	string password = "";
+	string salt = "4fTgjp6q";
+	string magic = "$1$";
+	//cout << md5_crypt(password, salt, magic) << endl;
+	char alphabet[] = {'a','b','c','d','e','f','g','h','i','j','k','l','m','n','o','p','q','r','s','t','u','v','w','x','y','z'};	
+	string guess_5 = "aaaaa";
+	int i = 0;
+	int j = 0;
+	int k = 0;
+	int x = 0;
+	int v = 0;
+	int l = 0;	
+	// guess_5
+	for (v = 15; v < 26; ++v) {
+		guess_5[0] = alphabet[v];
+		for (x = 0; x < 26; ++x) {
+			guess_5[1] = alphabet[x];
+			for (i = 0; i< 26; ++i) {
+				guess_5[2] = alphabet[i];
+				for (j = 0; j < 26; ++j) {
+					guess_5[3] = alphabet[j];
+					for (k = 0; k < 26; ++k) {
+						guess_5[4] = alphabet[k];
+						if (md5_crypt(guess_5, salt, magic) == hashed_password) {
+							cout << "FOUND: " << guess_5 << endl;
+						}
+						//cout << guess_5 << endl;
+					}	
+				}
+			}
+		}
+	}
+
+}
+
+int main() {
+	
+	std::thread thread_1(guesses_one_to_three);
+	std::thread thread_2(guess_4);
+	std::thread thread_3(guess_5_1);
+	std::thread thread_4(guess_5_2);	
 	
 	thread_1.join();
 	thread_2.join();
 	thread_3.join();
 	thread_4.join();
-	thread_5.join();
+
+	std::thread thread_6(six_1);
+	std::thread thread_7(six_2);
+	std::thread thread_8(six_3);
+	std::thread thread_9(six_4);
+	std::thread thread_10(six_5);
+	std::thread thread_11(six_6);
+	std::thread thread_12(six_7);
+
+	thread_6.join();
+	thread_7.join();
+	thread_8.join();
+	thread_9.join();
+	thread_10.join();
+	thread_11.join();
+	thread_12.join();
 
 	return 0;
 }
-
-
-
-// turn into bits then for every 6 bits left to right do base64[i] 
-// last char will be either a . or / or 0
-
-
-
-
-
 
 
 
